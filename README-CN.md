@@ -13,4 +13,6 @@
 
 如果使用 Vercel 部署服务，必须自定义域名，因为自定义域名不受 GFW 影响
 
+[自定义域名文档](https://vercel.com/docs/concepts/get-started/assign-domain)
+
 <a href="https://vercel.com/import/project?template=https://github.com/imyuanx/chatgpt-proxy" target="_blank" rel="noopener noreferrer"><img src="https://vercel.com/button" alt="部署到 Vercel"></a>
