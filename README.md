@@ -2,6 +2,12 @@ One-click deployment of the ChatGPT private proxy, power by Next.js
 
 English | [简体中文](./README-CN.md)
 
+## Introduction
+
+This project is based on Next.js, use Rewriter to complete proxy function, only [2 lines](https://github.com/imyuanx/chatgpt-proxy/blob/main/next.config.js#L7-L8) of core code, combining Zeabur or Vercel can easily host your private proxy service
+
+Before you start, you'd better check the [How to use](#how-to-use) section to determine whether this project is applicable to you
+
 ## Deploy on Zeabur
 
 The Zeabur is recommended, Specific operations are as follows
@@ -71,3 +77,5 @@ You can use the proxy service in applications that support custom apis to invoke
 Fro example, [openai-translator](https://github.com/yetone/openai-translator):
 
 <img width="600" src="public/openai-translator.png" alt="Alt text"/>
+
+[Back to top](#introduction)

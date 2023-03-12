@@ -2,6 +2,12 @@
 
 简体中文 | [English](./README.md)
 
+## 简介
+
+此项目基于 Next.js，使用 Rewriter 完成代理功能，核心代码只有 [2 行](https://github.com/imyuanx/chatgpt-proxy/blob/main/next.config.js#L7-L8)，结合 Zeabur 或 Vercel 可以很简单的托管你的私有代理服务
+
+开始之前，最好先查看[如何使用](#如何使用)章节判断此项目是否适用于你
+
 ## 在 Zeabur 上部署
 
 推荐使用 Zeabur，具体操作如下
@@ -66,8 +72,10 @@
 
 其中红框中的地址会完全转发到`https://api.openai.com`，并且此地址在国内可访问
 
-你可以在支持自定义`API`的应用中使用你的代理服务，实现在国内调用`openai`接口的目的
+你可以在支持自定义 `API` 的应用中使用你的代理服务，实现在国内调用 `openai` 接口的目的
 
 例如[openai-translator](https://github.com/yetone/openai-translator)：
 
 <img width="600" src="public/openai-translator.png" alt="Alt text" />
+
+[回到顶部](#简介)
