@@ -44,6 +44,10 @@
 
 ## 在 Vercel 上部署
 
+> ❗️⚠️❗️**警告：根据 Vercel 使用条款，此项目或许违反了 [Never Fair Use - Proxies and VPNs](https://vercel.com/docs/concepts/limits/fair-use-policy#never-fair-use) 条目，强烈不推荐使用 Vercel 托管此项目！**
+>
+> ❗️⚠️❗️**警告：如果因为部署此项目到 Vercel 导致您的账号被处罚，请自行承担后果**
+
 如果使用 Vercel 部署服务，必须[自定义域名](https://vercel.com/docs/concepts/get-started/assign-domain)，因为自定义域名不受 GFW 影响，具体操作如下
 
 <a href="https://vercel.com/import/project?template=https://github.com/imyuanx/chatgpt-proxy" target="_blank" rel="noopener noreferrer"><img src="https://vercel.com/button" alt="部署到 Vercel"></a>
