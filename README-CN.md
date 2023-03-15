@@ -6,6 +6,8 @@
 
 此项目基于 Next.js，使用 Rewriter 完成代理功能，核心代码只有 [2 行](https://github.com/imyuanx/chatgpt-proxy/blob/main/next.config.js#L7-L8)，结合 Zeabur 或 Vercel 可以很简单的托管你的私有代理服务
 
+### [示例](https://chatgpt-proxy-preview.zeabur.app)
+
 开始之前，最好先查看[如何使用](#如何使用)章节判断此项目是否适用于你
 
 ## 在 Zeabur 上部署
