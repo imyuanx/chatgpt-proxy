@@ -6,6 +6,8 @@ English | [简体中文](./README-CN.md)
 
 This project is based on Next.js, use Rewriter to complete proxy function, only [2 lines](https://github.com/imyuanx/chatgpt-proxy/blob/main/next.config.js#L7-L8) of core code, combining Zeabur or Vercel can easily host your private proxy service
 
+### [Demo](https://chatgpt-proxy-preview.zeabur.app)
+
 Before you start, you'd better check the [How to use](#how-to-use) section to determine whether this project is applicable to you
 
 ## Deploy on Zeabur
