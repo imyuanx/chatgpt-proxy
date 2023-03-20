@@ -18,35 +18,33 @@ The Zeabur is recommended, Specific operations are as follows
 
 <img width="600" src="public/frok.png" alt="fork" />
 
-2. Deploy your repo on [Zeabur](https://zeabur.com)
+2. Add a new service on [Zeabur](https://zeabur.com) console
 
-3. Add a new service on [Zeabur](https://zeabur.com) console
+<img width="600" src="public/zeabur.png" alt="step 1"/>
 
-<img width="600" src="public/zeabur-console.png" alt="step 1"/>
+3. Add service and deploy from source code
 
-4. select from source deploy
+<img width="600" src="public/zeabur-1.png" alt="step 2"/>
 
-<img width="600" src="public/zeabur-console-1.png" alt="step 2"/>
+<img width="600" src="public/zeabur-1-1.png" alt="step 2-1"/>
 
-5. select your forked repo
+4. Select your forked repo
 
-<img width="600" src="public/zeabur-console-2.png" alt="step 3"/>
+<img width="600" src="public/zeabur-2.png" alt="step 3"/>
 
-6. select main and deploy
+5. Select main and deploy
 
-<img width="600" src="public/zeabur-console-3.png" alt="step 4"/>
+<img width="600" src="public/zeabur-3.png" alt="step 4"/>
 
-7. After the deployment is successful, Generate domain on the setting tab
+6. After the deployment is successful, Generate the domain name.
 
-<img width="600" src="public/zeabur-console-4.png" alt="step 5"/>
+<img width="600" src="public/zeabur-4.png" alt="step 5"/>
 
-8. Finally get your service
+7. Finally get your service
 
-<img width="600" src="public/zeabur-console-5.png" alt="step 6"/>
+<img width="600" src="public/zeabur-5.png" alt="step 6"/>
 
 ## Deploy on Vercel
-
-
 
 > ❗️⚠️❗️**Warning: This project may violate the [Never Fair Use - Proxies and VPNs](https://vercel.com/docs/concepts/limits/fair-use-policy#never-fair-use) entries under the Vercel Terms of Use. Vercel hosting this project is strongly not recommended!**
 >

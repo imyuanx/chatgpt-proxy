@@ -18,31 +18,31 @@
 
 <img width="600" src="public/frok.png" alt="fork" />
 
-2. 在 [Zeabur](https://zeabur.com) 部署你的仓库
+2. 在 [Zeabur](https://zeabur.com) 控制台新增一个服务
 
-3. 在 [Zeabur](https://zeabur.com) 控制台新增一个服务
+<img width="600" src="public/zeabur.png" alt="步骤 1" />
 
-<img width="600" src="public/zeabur-console.png" alt="步骤 1" />
+3. 点击添加服务然后选择从源码部署
 
-4. 选择从源码部署
+<img width="600" src="public/zeabur-1.png" alt="步骤 2" />
 
-<img width="600" src="public/zeabur-console-1.png" alt="步骤 2" />
+<img width="600" src="public/zeabur-1-1.png" alt="步骤 2-1"/>
 
-5. 选择你 fork 的仓库
+4. 选择你 fork 的仓库
 
-<img width="600" src="public/zeabur-console-2.png" alt="步骤 3" />
+<img width="600" src="public/zeabur-2.png" alt="步骤 3" />
 
-6. 选择 main 分支，开始部署
+5. 选择 main 分支，开始部署
 
-<img width="600" src="public/zeabur-console-3.png" alt="步骤 4" />
+<img width="600" src="public/zeabur-3.png" alt="步骤 4" />
 
-7. 部署成功后，在 setting 选项卡下生成域名
+6. 部署成功后，点击生成域名
 
-<img width="600" src="public/zeabur-console-4.png" alt="步骤 5" />
+<img width="600" src="public/zeabur-4.png" alt="步骤 5" />
 
-8. 最后得到你的服务
+7. 最后得到你的服务
 
-<img width="600" src="public/zeabur-console-5.png" alt="步骤 6" />
+<img width="600" src="public/zeabur-5.png" alt="步骤 6" />
 
 ## 在 Vercel 上部署
 
