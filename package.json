@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clipboard": "^2.0.11",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.1.1"
   }
 }
