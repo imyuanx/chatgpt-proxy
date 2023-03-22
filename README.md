@@ -10,6 +10,13 @@ This project is based on Next.js, use Rewriter to complete proxy function, only 
 
 Before you start, you'd better check the [How to use](#how-to-use) section to determine whether this project is applicable to you
 
+## Quick jump
+
+- [Deploy on Zeabur](#deploy-on-zeabur)
+- [Deploy on Vercel](#deploy-on-vercel)
+- [Deploy on your server](#deploy-on-your-server)
+- [How to use](#how-to-use)
+
 ## Deploy on Zeabur
 
 The Zeabur is recommended, Specific operations are as follows
@@ -69,6 +76,22 @@ If you use Vercel deploy services, you must [custom domain name](https://vercel.
 4. You must add a custom domain name for your service, otherwise you will not be able to access your service in the country
 
 <img width="600" src="public/vercel-domain.png" alt="Domain"/>
+
+## Deploy on your server
+
+> You must have a server and make sure your server can access ChatGPT, if not you can deploy on [Zeabur](#deploy-on-zeabur) / [Vercel](#deploy-on-vercel)
+>
+> You need some knowledge about [Docker](https://www.docker.com/)
+
+1. Fork this repository for your own repository
+
+<img width="600" src="public/frok.png" alt="fork" />
+
+2. Switch to the your forked project directory and run `docker build -t chatgpt-proxy .`
+
+3. then run `docker run --name chatgpt-proxy -d -p 8000:3000 chatgpt-proxy`
+
+4. open `http://127.0.0.1:8000` on your browser
 
 ## How to use
 

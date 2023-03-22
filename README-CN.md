@@ -10,6 +10,13 @@
 
 开始之前，最好先查看[如何使用](#如何使用)章节判断此项目是否适用于你
 
+## 快速跳转
+
+- [在 Zeabur 上部署](#在-zeabur-上部署)
+- [在 Vercel 上部署](#在-vercel-上部署)
+- [在你的服务器上部署](#在你的服务器上部署)
+- [如何使用](#如何使用)
+
 ## 在 Zeabur 上部署
 
 推荐使用 Zeabur，具体操作如下
@@ -69,6 +76,22 @@
 4. 你必须为你的服务添加一个自定义域名，否则你将不能在国内访问你的服务
 
 <img width="600" src="public/vercel-domain.png" alt="Domain" />
+
+## 在你的服务器上部署
+
+> 你必须有一个服务器并且确保你的服务器可以访问 ChatGPT，如果你没有那么你可以部署在 [Zeabur](#在-zeabur-上部署) / [Vercel](#在-vercel-上部署)
+>
+> 你需要一些关于 [Docker](https://www.docker.com/) 相关的知识
+
+1. Fork 这个仓库为你自己的仓库
+
+<img width="600" src="public/frok.png" alt="fork" />
+
+2. 切换到你 Fork 的项目目录下并运行 `docker build -t chatgpt-proxy .`
+
+3. 然后运行 `docker run --name chatgpt-proxy -d -p 8000:3000 chatgpt-proxy`
+
+4. 在浏览器中打开 `http://127.0.0.1:8000`
 
 ## 如何使用
 
