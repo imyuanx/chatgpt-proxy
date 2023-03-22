@@ -1,3 +1,5 @@
+![Banner](./public/chatgpt-proxy-banner.png)
+
 One-click deployment of the ChatGPT private proxy, power by Next.js
 
 English | [简体中文](./README-CN.md)

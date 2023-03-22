@@ -1,3 +1,5 @@
+![Banner](./public/chatgpt-proxy-banner.png)
+
 一键式部署 ChatGPT 私有代理，由 Next.js 驱动
 
 简体中文 | [English](./README.md)
