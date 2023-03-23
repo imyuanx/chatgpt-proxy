@@ -50,11 +50,20 @@
   transition: all 0.6s;
 }
 
-.description p {
+.content p {
   display: flex;
   align-items: center;
   font-size: 16px;
   gap: 8px;
+}
+
+.content {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 95%;
+  margin-top: 32px;
 }
 
 .code {

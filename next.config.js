@@ -7,6 +7,10 @@ const nextConfig = {
         source: "/proxy/:slug*",
         destination: "https://api.openai.com/:slug*",
       },
+      {
+        source: "/proxy-sse/:slug*",
+        destination: "/api/proxy-sse?path=:slug*",
+      },
     ];
   },
 };

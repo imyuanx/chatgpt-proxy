@@ -1,12 +1,14 @@
 ![Banner](./public/chatgpt-proxy-banner.png)
 
-One-click deployment of the ChatGPT private proxy, power by Next.js
+One-click deployment of the ChatGPT private proxy, power by Next.js, support SSE!
 
 English | [简体中文](./README-CN.md)
 
 ## Introduction
 
 This project is based on Next.js, use Rewriter to complete proxy function, only [2 lines](https://github.com/imyuanx/chatgpt-proxy/blob/main/next.config.js#L7-L8) of core code, combining Zeabur or Vercel can easily host your private proxy service
+
+ps: The SSE part of the code from [openai-api-proxy](https://github.com/easychen/openai-api-proxy)
 
 ### [Demo](https://chatgpt-proxy-preview.zeabur.app)
 
@@ -101,7 +103,7 @@ Whether you use Zeabur or Vercel, you will get the following proxy service after
 
 <img width="600" src="public/proxy.png" alt="Proxy service"/>
 
-The address in the red box is fully forwarded to `https://api.openai.com` and is accessible within the country
+The resulting two addresses will be fully forwarded to `https://api.openai.com` and both will be domestically accessible, where `.../proxy-sse` supports SSE
 
 You can use the proxy service in applications that support custom apis to invoke the "openai" interface domestically
 

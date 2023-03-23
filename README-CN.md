@@ -1,12 +1,14 @@
 ![Banner](./public/chatgpt-proxy-banner.png)
 
-一键式部署 ChatGPT 私有代理，由 Next.js 驱动
+一键式部署 ChatGPT 私有代理，由 Next.js 驱动，支持 SSE！
 
 简体中文 | [English](./README.md)
 
 ## 简介
 
 此项目基于 Next.js，使用 Rewriter 完成代理功能，核心代码只有 [2 行](https://github.com/imyuanx/chatgpt-proxy/blob/main/next.config.js#L7-L8)，结合 Zeabur 或 Vercel 可以很简单的托管你的私有代理服务
+
+ps: SSE 部分的代码来自 [openai-api-proxy](https://github.com/easychen/openai-api-proxy)
 
 ### [示例](https://chatgpt-proxy-preview.zeabur.app)
 
@@ -101,7 +103,8 @@
 
 <img width="600" src="public/proxy.png" alt="Proxy service" />
 
-其中红框中的地址会完全转发到`https://api.openai.com`，并且此地址在国内可访问
+得到的两个地址都会完全转发到 `https://api.openai.com` 并且都可在国内可访问，其中 `.../proxy-sse` 支持 SSE
+
 
 你可以在支持自定义 `API` 的应用中使用你的代理服务，实现在国内调用 `openai` 接口的目的
 
