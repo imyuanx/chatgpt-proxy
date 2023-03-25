@@ -2,7 +2,6 @@ lockfileVersion: 5.3
 
 specifiers:
   clipboard: ^2.0.11
-  eventsource-parser: ^0.1.0
   next: 13.2.3
   react: 18.2.0
   react-dom: 18.2.0
@@ -10,7 +9,6 @@ specifiers:
 
 dependencies:
   clipboard: 2.0.11
-  eventsource-parser: 0.1.0
   next: 13.2.3_react-dom@18.2.0+react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -168,11 +166,6 @@ packages:
 
   /delegate/3.2.0:
     resolution: {integrity: sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==}
-    dev: false
-
-  /eventsource-parser/0.1.0:
-    resolution: {integrity: sha512-M9QjFtEIkwytUarnx113HGmgtk52LSn3jNAtnWKi3V+b9rqSfQeVdLsaD5AG/O4IrGQwmAAHBIsqbmURPTd2rA==}
-    engines: {node: '>=14.18'}
     dev: false
 
   /good-listener/1.2.2:
