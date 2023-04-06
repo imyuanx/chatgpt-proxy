@@ -35,6 +35,40 @@ ps: SSE 部分的代码来自 [chatgptProxyAPI](https://github.com/x-dr/chatgptP
 
 4. 在浏览器中打开 `http://127.0.0.1:8000`
 
+如果你不使用 Docker，你也可以手动部署它
+
+<details>
+<summary>手动部署步骤</summary>
+
+> 你的 nodejs 版本需要大于或等于 14
+
+#### 1. 将此仓库 pull 到本地
+
+```bash
+$ git pull https://github.com/imyuanx/chatgpt-proxy
+$ cd chatgpt-proxy
+```
+
+#### 2. 下载依赖
+
+```bash
+$ pnpm install
+```
+
+#### 3. 编译
+
+```bash
+$ pnpm build
+```
+
+#### 4. 启动服务
+
+```bash
+$ pnpm start
+```
+
+</details>
+
 ## 在 Zeabur 上部署
 
 > ❗️⚠️❗️**警告：根据 Zeabur 使用条款，此项目或许违反了 `Never Fair Use - Proxies and VPNs` 条目，强烈不推荐使用 Zeabur 托管此项目！**

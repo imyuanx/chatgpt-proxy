@@ -35,6 +35,40 @@ ps: The SSE part of the code from [chatgptProxyAPI](https://github.com/x-dr/chat
 
 4. open `http://127.0.0.1:8000` on your browser
 
+If you don't use Docker, you can also manually deploy it
+
+<details>
+<summary>Steps for manually deploy</summary>
+
+> Your nodejs version needs to be greater than or equal to 14
+
+#### 1. Pull this repo to the local
+
+```bash
+$ git pull https://github.com/imyuanx/chatgpt-proxy
+$ cd chatgpt-proxy
+```
+
+#### 2. Installations
+
+```bash
+$ pnpm install
+```
+
+#### 3. Build
+
+```bash
+$ pnpm build
+```
+
+#### 4. Running Services
+
+```bash
+$ pnpm start
+```
+
+</details>
+
 ## Deploy on Zeabur
 
 > ❗️⚠️❗️**Warning: This project may violate the `Never Fair Use - Proxies and VPNs` entries under the Zeabur Terms of Use. Zeabur hosting this project is strongly not recommended!**
